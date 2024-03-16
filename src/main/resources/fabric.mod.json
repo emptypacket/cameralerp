@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "cameralerp",
+	"version": "${version}",
+	"name": "CameraLerp",
+	"description": "Makes player camera rotation smoother.",
+	"authors": [
+		"refrct"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cameralerp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"refrct.cameralerp.CameraLerp"
+		],
+		"client": [
+			"refrct.cameralerp.CameraLerpClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "cameralerp.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"midnightlib": ">=1.5.3"
+	},
+	"suggests": {
+
+	}
+}
