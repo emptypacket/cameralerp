@@ -8,16 +8,12 @@
 		"refrct"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/refrct/cameralerp"
 	},
 	"license": "MIT",
 	"icon": "assets/cameralerp/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"refrct.cameralerp.CameraLerp"
-		],
 		"client": [
 			"refrct.cameralerp.CameraLerpClient"
 		]
